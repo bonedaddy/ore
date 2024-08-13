@@ -723,13 +723,11 @@ dependencies = [
 [[package]]
 name = "drillx"
 version = "2.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c5fd3a8f11a6420d6efb1952c8c2e788627cb2c9e834537dc4b6bd036461646"
+source = "git+https://github.com/bonedaddy/drillx?rev=693a585232079617ca1e16722e96d19a2be08ab1#693a585232079617ca1e16722e96d19a2be08ab1"
 dependencies = [
  "equix",
  "serde",
  "sha3 0.10.8",
- "solana-program",
  "strum",
 ]
 
